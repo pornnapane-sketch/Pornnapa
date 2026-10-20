@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "mobile",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.kucsc.maid"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-maps",
+        {
+          "androidGoogleMapsApiKey": "AIzaSyBJmQqDKSj9cZGZzWzCS2dtmKZ-ThTlddE"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "67afed9e-eb3b-4756-993f-80c0242a7b23"
+      }
+    }
+  }
+}
